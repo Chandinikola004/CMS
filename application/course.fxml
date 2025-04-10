@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #DDEFF0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Coursecontroller">
+   <children>
+      <AnchorPane prefHeight="142.0" prefWidth="1200.0" style="-fx-background-color: #DDEFF0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="-1.6" prefHeight="90.0" prefWidth="1209.0" style="-fx-background-color: #F2F9F9;" text="             VEGAAHI IT PVT LTD" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Bodoni MT" size="50.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <GridPane layoutY="184.8" prefHeight="628.0" prefWidth="1165.0" style="-fx-background-color: #DDEFF0;" AnchorPane.bottomAnchor="-13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="185.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="419.2" minWidth="10.0" prefWidth="295.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="513.5999999999999" minWidth="10.0" prefWidth="284.00000000000006" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="620.8" minWidth="10.0" prefWidth="620.8" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="199.2000244140625" minHeight="10.0" prefHeight="131.79998168945312" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="248.60001831054686" minHeight="10.0" prefHeight="188.80003051757814" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="326.3999877929688" minHeight="10.0" prefHeight="307.9999694824218" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <GridPane prefHeight="193.0" prefWidth="375.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="115.59998168945313" minHeight="10.0" prefHeight="98.39999389648438" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="95.20000610351562" minHeight="10.0" prefHeight="95.20000610351562" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Course Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="course_name" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="240.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane prefHeight="193.0" prefWidth="375.0" GridPane.columnIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="115.59998168945313" minHeight="10.0" prefHeight="98.39999389648438" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="95.20000610351562" minHeight="10.0" prefHeight="95.20000610351562" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <TextField fx:id="duration" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="240.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Duration">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <ImageView fitHeight="18.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../icons8-schedule-24.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane layoutX="326.0" layoutY="30.0" prefHeight="193.0" prefWidth="375.0" GridPane.columnIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="115.59998168945313" minHeight="10.0" prefHeight="98.39999389648438" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="95.20000610351562" minHeight="10.0" prefHeight="95.20000610351562" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="fee" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="240.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane layoutX="10.0" layoutY="30.0" prefHeight="129.0" prefWidth="283.0" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="115.59998168945313" minHeight="10.0" prefHeight="27.199966430664062" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="184.80003356933594" minHeight="10.0" prefHeight="184.80003356933594" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="40.0" top="20.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="description" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="1021.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </GridPane.margin>
+                  </TextField>
+               </children>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane prefHeight="222.0" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <Button fx:id="addcoursesubmit" mnemonicParsing="false" prefHeight="46.0" prefWidth="101.0" style="-fx-background-color: #266E73;" text="Submit" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="250.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+      <Text fill="#23515c" layoutX="426.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD COURSE" AnchorPane.bottomAnchor="612.9765625" AnchorPane.leftAnchor="426.0" AnchorPane.rightAnchor="629.6015625" AnchorPane.topAnchor="155.1015625">
+         <font>
+            <Font name="Georgia" size="26.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="90.0" fitWidth="100.0" layoutX="55.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../vegaahi-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="courseback" layoutX="1092.0" layoutY="170.0" mnemonicParsing="false" style="-fx-background-color: #266E73;" text="Back" textFill="WHITE" />
+   </children>
+</AnchorPane>
